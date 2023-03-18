@@ -8,6 +8,7 @@ import (
 var (
 	Magnates common.Realm = common.Realm{
 		Encyclopedia: magnates.MagnatesEncyclopedia{},
+		Market:       magnates.MagnatesMarket{},
 	}
 	Entrepreneurs common.Realm = common.Realm{}
 )
