@@ -1,1 +1,7 @@
 go 1.19
+
+use (
+	./cmd/cli
+	./lib/go/common
+	./lib/go/proxy
+)
