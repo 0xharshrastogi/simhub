@@ -1,0 +1,86 @@
+.sidebar {
+	--side-bar-width: 80px;
+	--text-color: white;
+	background: linear-gradient(45deg, black, rgb(31, 31, 31));
+	width: var(--side-bar-width);
+	transition: width ease 250ms;
+	padding: 1rem 1.5rem;
+	box-sizing: border-box;
+	color: var(--text-color);
+}
+
+.sidebar header img {
+	aspect-ratio: 1/1;
+	display: block;
+	width: 1.8rem;
+	cursor: pointer;
+}
+
+.sidebar * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.sidebar a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.sidebar.open {
+	--side-bar-width: 250px;
+}
+
+.sidebar header {
+	margin: 1rem 0;
+}
+
+.sidebar ul {
+	list-style: none;
+}
+
+.sidebar .content {
+	margin-top: 3rem;
+}
+
+.sidebar .content li + li {
+	margin-top: 0.5rem;
+}
+
+.sidebar .content-item {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	position: relative;
+	font-family: monospace;
+	border-radius: 0.25rem;
+	aspect-ratio: 1/1;
+}
+
+.sidebar .content-item:hover {
+	color: black;
+	background-color: whitesmoke;
+}
+
+.sidebar .content-item-label {
+	display: none;
+	opacity: 0;
+	margin-left: 1rem;
+}
+
+.sidebar:not(.open) .content-item:hover .content-item-label {
+	background-color: rgba(57, 57, 57, 0.699);
+	font-family: monospace;
+	padding: 0.25rem;
+	border-radius: 0.25rem;
+	display: inline-block;
+	position: absolute;
+	left: 150%;
+	top: 0;
+	opacity: 1;
+}
+
+.sidebar.open .content-item-label {
+	display: unset;
+	opacity: 1;
+}
