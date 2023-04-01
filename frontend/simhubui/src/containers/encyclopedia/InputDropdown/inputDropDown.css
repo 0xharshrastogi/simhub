@@ -1,0 +1,59 @@
+input.input-bx {
+	width: 500px;
+	background-color: #efefef;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	color: black;
+	font-weight: medium;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	outline: none;
+	border-radius: 0.5rem;
+}
+
+input.input-bx.open {
+	border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.input-options {
+	--display: none;
+	--height: 0;
+	--opacity: 0;
+
+	/* display: var(--display); */
+	transform: scaleY(var(--height));
+	opacity: var(--opacity);
+
+	transform-origin: top;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+
+	list-style: none;
+	background-color: #efefef;
+	padding-top: 1rem;
+	border-radius: 0.5rem;
+	border-radius: 0 0 0.5rem 0.5rem;
+	overflow: hidden;
+
+	max-height: 20rem;
+	overflow-y: auto;
+	transition: transform 100ms ease-in-out;
+}
+
+.input-options.open {
+	--display: block;
+	--height: 1;
+	--opacity: 1;
+}
+
+.input-options > * {
+	padding: 0.2rem 1rem;
+	cursor: pointer;
+}
+
+.input-options > *:hover {
+	background-color: #b0b0b0;
+}
+
+.input-options > * + * {
+	margin-top: 0.2rem;
+}
