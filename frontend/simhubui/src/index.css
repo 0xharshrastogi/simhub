@@ -1,4 +1,22 @@
 :root {
+	--primary: #202020;
+	--secondary: #43468c;
+	--body-text: #666666;
+
+	--light-0: #f3f3f3;
+}
+
+@font-face {
+	font-family: SofiaPro;
+	src: url(assets/sofiapro-light.otf) format("truetype");
+}
+
+@font-face {
+	font-family: GramatikaBold;
+	src: url("./assets/1095-font.ttf") format(truetype);
+}
+
+:root {
 	margin: 0;
 	padding: 0;
 }
@@ -6,4 +24,12 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: var(--light-0);
+	color: var(--body-text);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }

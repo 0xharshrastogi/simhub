@@ -1,12 +1,18 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
-import "./sidebar.css";
-
-interface SidebarProps {}
+import "./sidebar.scss";
 
 const sidebarItems = [
-	{ label: "Home", icon: "bx bxs-home", to: "/home" },
-	{ label: "Encyclopedia", icon: "bx bxs-book", to: "/encyclopedia" },
+	{
+		label: "Home",
+		icon: "bx bxs-home",
+		to: "/home",
+	},
+	{
+		label: "Encyclopedia",
+		icon: "bx bxs-book",
+		to: "/encyclopedia",
+	},
 	{
 		label: "Game",
 		icon: "bx bx-link-alt",
@@ -14,7 +20,7 @@ const sidebarItems = [
 	},
 ];
 
-export const Sidebar: FC<SidebarProps> = (props) => {
+export const Sidebar: FC<{}> = () => {
 	return (
 		<aside className="sidebar">
 			<header>

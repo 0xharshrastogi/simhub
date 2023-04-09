@@ -1,5 +1,32 @@
 .encyclopedia-container {
 	display: flex;
 	min-height: 100vh;
-	grid-template-columns: auto auto;
+}
+
+.encyclopedia-wrapper {
+	flex: 1;
+	font-family: SofiaPro;
+}
+
+.encyclopedia-wrapper header {
+	/* background: linear-gradient(45deg, black, rgb(31, 31, 31)); */
+	display: flex;
+	padding: 0 0 1rem 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.encyclopedia-wrapper header h1 {
+	font-family: "GramatikaBold", sans-serif;
+	text-align: center;
+	font-size: 4.5rem;
+	font-weight: bold;
+	margin: 1rem 0 1rem 0;
+}
+
+.resource-dropdown ul {
+	list-style: none;
+	background-color: #dddbdb;
+	padding: 1rem;
+	border-radius: 0 0 1rem 1rem;
 }

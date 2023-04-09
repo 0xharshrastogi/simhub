@@ -1,0 +1,88 @@
+.button {
+	--background-color: #43468c;
+	--background-color-hover: #4f52a6;
+	--background-color-active: #363972;
+	--background-color-disabled: #c2c2c2;
+	--text-color: #ffffff;
+	--text-color-disabled: #666;
+	--rounded: 4px;
+
+	border: none;
+	background-color: var(--background-color);
+	color: var(--text-color);
+	box-shadow: 0px 2px 10px 0px #00000040;
+	padding: 0.4rem 0.6rem;
+	border-radius: var(--rounded);
+	font-size: 0.75rem;
+	font-family: "Open Sans";
+	font-weight: 600;
+	line-height: 28px;
+	transform: scale(1);
+	cursor: pointer;
+
+	/*#region state*/
+	&:focus {
+		outline: var(--background-color);
+		outline-style: dashed;
+		outline-offset: 2px;
+		outline-width: 2px;
+	}
+	&:hover {
+		--background-color: var(--background-color-hover);
+		box-shadow: none;
+		transition: background-color 170ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	}
+	&:active {
+		--background-color: var(--background-color-active);
+		--scale: 0.96;
+		box-shadow: none;
+		outline: none;
+		transform: scale(0.96);
+		transition: transform 200 ease-out;
+		&:is(:disabled) {
+			--scale: 1;
+		}
+	}
+	:disabled {
+		--background-color: var(--background-color-disabled);
+		--text-color: var(--text-color-disabled);
+		box-shadow: none;
+		cursor: unset;
+	}
+	/*#endregion*/
+
+	/*#region size*/
+	&:is(.square) {
+		height: 48px;
+		aspect-ratio: 1/1;
+		overflow: hidden;
+	}
+
+	&:is(.large) {
+		padding: 0.5rem 0.7rem;
+		font-size: 1rem;
+	}
+	&:is(.small) {
+		padding: 0.5rem 0.7rem;
+		line-height: unset;
+		font-size: 0.75rem;
+	}
+	&:is(.tiny) {
+		padding: 0.3rem 0.5rem;
+		line-height: unset;
+		font-size: 0.5rem;
+		&:focus {
+			outline-offset: 1px;
+		}
+	}
+	/*#endregion*/
+
+	/*#region variant*/
+	:is(.secondary) {
+		--background-color: #f3f3f3;
+		--text-color: #43468c;
+		--background-color-hover: #f3f3f3;
+		--background-color-active: #ebebeb;
+	}
+	/*#endregion*/
+}
