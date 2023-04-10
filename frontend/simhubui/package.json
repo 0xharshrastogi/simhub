@@ -17,6 +17,7 @@
 		"react-dom": "^18.2.0",
 		"react-router-dom": "^6.9.0",
 		"sass": "^1.61.0",
+		"simcompanies": "file:../../lib/ts/simcompanies",
 		"sort-by": "^1.2.0"
 	},
 	"devDependencies": {
