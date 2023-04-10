@@ -8,15 +8,10 @@ import (
 
 func New() *gin.Engine {
 	router := gin.New()
-	c := cors.DefaultConfig()
-	c.AllowAllOrigins = true
-
-	router.Use(cors.New(c))
-
+	router.Use(cors.Default())
 	r := router.Group("/:realm/resource")
 	{
 		r.GET("/", resourcecontroller.GetAllResources)
 	}
-
 	return router
 }
