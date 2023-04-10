@@ -1,12 +1,15 @@
 package main
 
 import (
-	profitcalculator "github.com/harshrastogiexe/cmd/cli/profit_calculator"
-	"github.com/harshrastogiexe/lib/go/common"
+	"fmt"
+
+	"github.com/harshrastogiexe/lib/go/proxy"
 )
 
 func main() {
-	calc := profitcalculator.New(common.Magnates)
-	calc.Calculate("L")
+	r, _ := proxy.Magnates.Encyclopedia.GetResourcesList()
+	for _, v := range r {
+		fmt.Println(v.Name)
+	}
 
 }

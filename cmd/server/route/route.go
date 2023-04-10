@@ -3,7 +3,7 @@ package route
 import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/harshrastogi/eagle/cmd/server/controller"
+	resourcecontroller "github.com/harshrastogi/eagle/cmd/server/controller/resource_controller"
 )
 
 func New() *gin.Engine {
@@ -13,9 +13,9 @@ func New() *gin.Engine {
 
 	router.Use(cors.New(c))
 
-	r := router.Group("/resource")
+	r := router.Group("/:realm/resource")
 	{
-		r.GET("/", controller.GetAllResources)
+		r.GET("/", resourcecontroller.GetAllResources)
 	}
 
 	return router

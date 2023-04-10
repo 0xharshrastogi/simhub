@@ -1,0 +1,8 @@
+@BaseURL = http://localhost:8080
+
+@Magnates = 1
+@Enterprenuers = 2
+
+# list of resource of realm
+
+GET {{BaseURL}}/{{Magnates}}/resource/ HTTP/1.1

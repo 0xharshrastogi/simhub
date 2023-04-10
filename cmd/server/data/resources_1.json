@@ -1,0 +1,1402 @@
+[
+  {
+    "name": "Power",
+    "image": "images/resources/power.png",
+    "db_letter": 1,
+    "transportation": 0,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Water",
+    "image": "images/resources/water.png",
+    "db_letter": 2,
+    "transportation": 0,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Apples",
+    "image": "images/resources/apples.png",
+    "db_letter": 3,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Oranges",
+    "image": "images/resources/oranges.png",
+    "db_letter": 4,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Grapes",
+    "image": "images/resources/grapes.png",
+    "db_letter": 5,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Grain",
+    "image": "images/resources/grain.png",
+    "db_letter": 6,
+    "transportation": 0.1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Steak",
+    "image": "images/resources/steak.png",
+    "db_letter": 7,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Sausages",
+    "image": "images/resources/sausages.png",
+    "db_letter": 8,
+    "transportation": 0.1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Eggs",
+    "image": "images/resources/eggs.png",
+    "db_letter": 9,
+    "transportation": 0.1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Crude oil",
+    "image": "images/resources/crude-oil.png",
+    "db_letter": 10,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Petrol",
+    "image": "images/resources/petrol.png",
+    "db_letter": 11,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Diesel",
+    "image": "images/resources/diesel.png",
+    "db_letter": 12,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Transport",
+    "image": "images/resources/transport.png",
+    "db_letter": 13,
+    "transportation": 0,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Minerals",
+    "image": "images/resources/minerals.png",
+    "db_letter": 14,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Bauxite",
+    "image": "images/resources/bauxite.png",
+    "db_letter": 15,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Silicon",
+    "image": "images/resources/silicon.png",
+    "db_letter": 16,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Chemicals",
+    "image": "images/resources/chemicals.png",
+    "db_letter": 17,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Aluminium",
+    "image": "images/resources/aluminium.png",
+    "db_letter": 18,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Plastic",
+    "image": "images/resources/plastic.png",
+    "db_letter": 19,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Processors",
+    "image": "images/resources/processors.png",
+    "db_letter": 20,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Electronic components",
+    "image": "images/resources/electronic-components.png",
+    "db_letter": 21,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Batteries",
+    "image": "images/resources/batteries.png",
+    "db_letter": 22,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Displays",
+    "image": "images/resources/displays.png",
+    "db_letter": 23,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Smart phones",
+    "image": "images/resources/smart-phones.png",
+    "db_letter": 24,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Tablets",
+    "image": "images/resources/tablets.png",
+    "db_letter": 25,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Laptops",
+    "image": "images/resources/laptops.png",
+    "db_letter": 26,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Monitors",
+    "image": "images/resources/monitors.png",
+    "db_letter": 27,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Televisions",
+    "image": "images/resources/televisions.png",
+    "db_letter": 28,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Plant research",
+    "image": "images/resources/plant-research.png",
+    "db_letter": 29,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Energy research",
+    "image": "images/resources/energy-research.png",
+    "db_letter": 30,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Mining research",
+    "image": "images/resources/mining-research.png",
+    "db_letter": 31,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Electronics research",
+    "image": "images/resources/electronics-research.png",
+    "db_letter": 32,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Breeding research",
+    "image": "images/resources/breeding-research.png",
+    "db_letter": 33,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Chemistry research",
+    "image": "images/resources/chemistry-research.png",
+    "db_letter": 34,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Software",
+    "image": "images/resources/software.png",
+    "db_letter": 35,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Cotton",
+    "image": "images/resources/cotton.png",
+    "db_letter": 40,
+    "transportation": 0.5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Fabric",
+    "image": "images/resources/fabric.png",
+    "db_letter": 41,
+    "transportation": 0.5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Iron ore",
+    "image": "images/resources/iron-ore.png",
+    "db_letter": 42,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Steel",
+    "image": "images/resources/steel.png",
+    "db_letter": 43,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Sand",
+    "image": "images/resources/sand.png",
+    "db_letter": 44,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Glass",
+    "image": "images/resources/glass.png",
+    "db_letter": 45,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Leather",
+    "image": "images/resources/leather.png",
+    "db_letter": 46,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "On-board computer",
+    "image": "images/resources/on-board-computer.png",
+    "db_letter": 47,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Electric motor",
+    "image": "images/resources/electric-motor.png",
+    "db_letter": 48,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Luxury car interior",
+    "image": "images/resources/luxury-car-interior.png",
+    "db_letter": 49,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Basic interior",
+    "image": "images/resources/car-interior.png",
+    "db_letter": 50,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Car body",
+    "image": "images/resources/car-body.png",
+    "db_letter": 51,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Combustion engine",
+    "image": "images/resources/combustion-engine.png",
+    "db_letter": 52,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Economy e-car",
+    "image": "images/resources/economy-e-car.png",
+    "db_letter": 53,
+    "transportation": 5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Luxury e-car",
+    "image": "images/resources/luxury-e-car.png",
+    "db_letter": 54,
+    "transportation": 5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Economy car",
+    "image": "images/resources/economy-car.png",
+    "db_letter": 55,
+    "transportation": 5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Luxury car",
+    "image": "images/resources/luxury-car.png",
+    "db_letter": 56,
+    "transportation": 5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Truck",
+    "image": "images/resources/truck.png",
+    "db_letter": 57,
+    "transportation": 5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Automotive research",
+    "image": "images/resources/automotive-research.png",
+    "db_letter": 58,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Fashion research",
+    "image": "images/resources/fashion-research.png",
+    "db_letter": 59,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Underwear",
+    "image": "images/resources/underwear.png",
+    "db_letter": 60,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Gloves",
+    "image": "images/resources/gloves.png",
+    "db_letter": 61,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Dress",
+    "image": "images/resources/dress.png",
+    "db_letter": 62,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Stiletto Heel",
+    "image": "images/resources/simmi-shoes.png",
+    "db_letter": 63,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Handbags",
+    "image": "images/resources/handbags.png",
+    "db_letter": 64,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Sneakers",
+    "image": "images/resources/sneakers.png",
+    "db_letter": 65,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Seeds",
+    "image": "images/resources/seeds.png",
+    "db_letter": 66,
+    "transportation": 0.1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Xmas crackers",
+    "image": "images/resources/xmas-crackers.png",
+    "db_letter": 67,
+    "transportation": 0.5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": false
+  },
+  {
+    "name": "Gold ore",
+    "image": "images/resources/gold-ore.png",
+    "db_letter": 68,
+    "transportation": 10,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Golden bars",
+    "image": "images/resources/golden-bars.png",
+    "db_letter": 69,
+    "transportation": 1000,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Luxury watch",
+    "image": "images/resources/gold-watch.png",
+    "db_letter": 70,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Necklace",
+    "image": "images/resources/necklace.png",
+    "db_letter": 71,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Sugarcane",
+    "image": "images/resources/sugarcane.png",
+    "db_letter": 72,
+    "transportation": 0.1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Ethanol",
+    "image": "images/resources/ethanol.png",
+    "db_letter": 73,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Methane",
+    "image": "images/resources/methane.png",
+    "db_letter": 74,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Carbon fibers",
+    "image": "images/resources/carbon-fiber.png",
+    "db_letter": 75,
+    "transportation": 0.1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Carbon composite",
+    "image": "images/resources/carbon-composite.png",
+    "db_letter": 76,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Fuselage",
+    "image": "images/resources/fuselage.png",
+    "db_letter": 77,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Wing",
+    "image": "images/resources/wing.png",
+    "db_letter": 78,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "High grade e-comps",
+    "image": "images/resources/high-grade-e-components.png",
+    "db_letter": 79,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Flight computer",
+    "image": "images/resources/flight-computer.png",
+    "db_letter": 80,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Cockpit",
+    "image": "images/resources/cockpit.png",
+    "db_letter": 81,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Attitude control",
+    "image": "images/resources/attitude-control.png",
+    "db_letter": 82,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Rocket fuel",
+    "image": "images/resources/rocket-fuel.png",
+    "db_letter": 83,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Propellant tank",
+    "image": "images/resources/fuel-tank.png",
+    "db_letter": 84,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Solid fuel booster",
+    "image": "images/resources/solid-rocket.png",
+    "db_letter": 85,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Rocket engine",
+    "image": "images/resources/rocket-engine.png",
+    "db_letter": 86,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Heat shield",
+    "image": "images/resources/heat-shield.png",
+    "db_letter": 87,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Ion drive",
+    "image": "images/resources/ion-drive.png",
+    "db_letter": 88,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Jet engine",
+    "image": "images/resources/jet-engine.png",
+    "db_letter": 89,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Sub-orbital 2nd stage",
+    "image": "images/resources/sub-orbital-second-stage.png",
+    "db_letter": 90,
+    "transportation": 20,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true
+  },
+  {
+    "name": "Sub-orbital rocket",
+    "image": "images/resources/sub-orbital-rocket2.png",
+    "db_letter": 91,
+    "transportation": 20,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true
+  },
+  {
+    "name": "Orbital booster",
+    "image": "images/resources/orbital-booster.png",
+    "db_letter": 92,
+    "transportation": 100,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true
+  },
+  {
+    "name": "Starship",
+    "image": "images/resources/starship.png",
+    "db_letter": 93,
+    "transportation": 100,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true
+  },
+  {
+    "name": "BFR",
+    "image": "images/resources/BFR.png",
+    "db_letter": 94,
+    "transportation": 2000,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true
+  },
+  {
+    "name": "Jumbo jet",
+    "image": "images/resources/jumbojet2.png",
+    "db_letter": 95,
+    "transportation": 2000,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true
+  },
+  {
+    "name": "Luxury jet",
+    "image": "images/resources/private-jet.png",
+    "db_letter": 96,
+    "transportation": 1000,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true
+  },
+  {
+    "name": "Single engine plane",
+    "image": "images/resources/single-engine.png",
+    "db_letter": 97,
+    "transportation": 100,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true
+  },
+  {
+    "name": "Quadcopter",
+    "image": "images/resources/quadcopter.png",
+    "db_letter": 98,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Satellite",
+    "image": "images/resources/satellite.png",
+    "db_letter": 99,
+    "transportation": 10,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": false,
+    "realmAvailable": true
+  },
+  {
+    "name": "Aerospace research",
+    "image": "images/resources/aero-research.png",
+    "db_letter": 100,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Reinforced concrete",
+    "image": "images/resources/reinforced-concrete.png",
+    "db_letter": 101,
+    "transportation": 10,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Bricks",
+    "image": "images/resources/bricks.png",
+    "db_letter": 102,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Cement",
+    "image": "images/resources/cement.png",
+    "db_letter": 103,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Clay",
+    "image": "images/resources/clay.png",
+    "db_letter": 104,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Limestone",
+    "image": "images/resources/limestone.png",
+    "db_letter": 105,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Wood",
+    "image": "images/resources/wood.png",
+    "db_letter": 106,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Steel beams",
+    "image": "images/resources/steel-beams.png",
+    "db_letter": 107,
+    "transportation": 5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Planks",
+    "image": "images/resources/planks.png",
+    "db_letter": 108,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Windows",
+    "image": "images/resources/windows.png",
+    "db_letter": 109,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Tools",
+    "image": "images/resources/tools.png",
+    "db_letter": 110,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Construction units",
+    "image": "images/resources/construction-units.png",
+    "db_letter": 111,
+    "transportation": 0,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Bulldozer",
+    "image": "images/resources/bulldozer.png",
+    "db_letter": 112,
+    "transportation": 5,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Materials research",
+    "image": "images/resources/materials-research.png",
+    "db_letter": 113,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Robots",
+    "image": "images/resources/robots.png",
+    "db_letter": 114,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Cows",
+    "image": "images/resources/cow.png",
+    "db_letter": 115,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Pigs",
+    "image": "images/resources/pig.png",
+    "db_letter": 116,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Milk",
+    "image": "images/resources/milk.png",
+    "db_letter": 117,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Coffee beans",
+    "image": "images/resources/coffee-beans.png",
+    "db_letter": 118,
+    "transportation": 0.1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Coffee powder",
+    "image": "images/resources/coffee-ground.png",
+    "db_letter": 119,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Vegetables",
+    "image": "images/resources/vegetables.png",
+    "db_letter": 120,
+    "transportation": 0.2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Bread",
+    "image": "images/resources/bread.png",
+    "db_letter": 121,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Cheese",
+    "image": "images/resources/cheese.png",
+    "db_letter": 122,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Apple pie",
+    "image": "images/resources/apple-pie.png",
+    "db_letter": 123,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Orange juice",
+    "image": "images/resources/orange-juice.png",
+    "db_letter": 124,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Apple cider",
+    "image": "images/resources/apple-cider.png",
+    "db_letter": 125,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Ginger beer",
+    "image": "images/resources/ginger-beer.png",
+    "db_letter": 126,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Frozen pizza",
+    "image": "images/resources/pizza.png",
+    "db_letter": 127,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Pasta",
+    "image": "images/resources/pasta.png",
+    "db_letter": 128,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Hamburger",
+    "image": "images/resources/hamburger.png",
+    "db_letter": 129,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Lasagna",
+    "image": "images/resources/lasagna.png",
+    "db_letter": 130,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Meat balls",
+    "image": "images/resources/meatballs.png",
+    "db_letter": 131,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Cocktails",
+    "image": "images/resources/cocktails.png",
+    "db_letter": 132,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Flour",
+    "image": "images/resources/flour.png",
+    "db_letter": 133,
+    "transportation": 0.1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Butter",
+    "image": "images/resources/butter.png",
+    "db_letter": 134,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Sugar",
+    "image": "images/resources/sugar.png",
+    "db_letter": 135,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Cocoa",
+    "image": "images/resources/cocoa-beans.png",
+    "db_letter": 136,
+    "transportation": 0.1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Dough",
+    "image": "images/resources/dough.png",
+    "db_letter": 137,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Sauce",
+    "image": "images/resources/gravy-boat.png",
+    "db_letter": 138,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Fodder",
+    "image": "images/resources/fodder.png",
+    "db_letter": 139,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Ramadan sweets",
+    "image": "images/resources/ramadan-sweets.png",
+    "db_letter": 140,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Vegetable oil",
+    "image": "images/resources/vegetable-oil.png",
+    "db_letter": 141,
+    "transportation": 1,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Salad",
+    "image": "images/resources/salad.png",
+    "db_letter": 142,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Samosa",
+    "image": "images/resources/samosas.png",
+    "db_letter": 143,
+    "transportation": 2,
+    "retainable": false,
+    "research": false,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  },
+  {
+    "name": "Recipes",
+    "image": "images/resources/recipes.png",
+    "db_letter": 145,
+    "transportation": 0,
+    "retainable": false,
+    "research": true,
+    "exchangeTradable": true,
+    "realmAvailable": true
+  }
+]
